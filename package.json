@@ -1,0 +1,27 @@
+{
+  "name": "example-create-react-app-express",
+  "version": "1.0.0",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "test": "jest",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "mongodb": "^3.1.0",
+    "mongoose": "^5.2.1",
+    "nodemailer": "^4.6.7",
+    "react-router-dom": "^4.3.1",
+    "sendotp": "^1.2.9",
+    "sha1": "^1.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0"
+  }
+}
