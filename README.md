@@ -1,9 +1,9 @@
 # RajasthanHackathon
 This project was developed as a prototype for Rajasthan Hackathon july 2018.
-This is simple Login signup and email, OTP implemented.
+This is simple Login signup and email, OTP and frontend is build in ReactJs and materialize.
 
 //To DO:
-- Aadhar Authentication
+- Aadhar Authentication some part.
 - Rating to guide
 
 Run on local system:
